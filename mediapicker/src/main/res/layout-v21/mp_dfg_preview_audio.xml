@@ -27,6 +27,7 @@
         android:maxHeight="@dimen/dp_4"
         android:minHeight="@dimen/dp_4"
         android:progressDrawable="@drawable/play_seekbar_bg"
+        android:splitTrack="false"
         android:thumb="@drawable/slider_thumb_normal"
         app:layout_constraintBottom_toBottomOf="@id/iv_mp_preview_audio_control"
         app:layout_constraintLeft_toLeftOf="parent"

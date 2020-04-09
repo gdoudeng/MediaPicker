@@ -44,7 +44,7 @@ public class MainFragment extends Fragment {
             public void onClick(View v) {
                 MediaPicker.init(MainFragment.this)
                         .setMediaPickerConfig(new MediaPickerConfig.Builder()
-                                .setMediaPickerType(MediaPickerType.TYPE_VIDEO)
+                                .setMediaPickerType(MediaPickerType.TYPE_AUDIO)
                                 .build())
                         .pick();
             }
